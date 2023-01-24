@@ -8,7 +8,7 @@ import jakarta.persistence.PersistenceContext;
 import java.util.List;
 
 
-@Component
+@Repository
 public class UserDaoImp implements UserDao {
 
     @PersistenceContext
